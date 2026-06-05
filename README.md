@@ -13,5 +13,5 @@
 - pygit log (mostra o histórico de commits)
 - pygit show (mostra uma commit em específico)
 
-
+(é necessário adicionar um path no windows para rodar ele por enquanto, será alterado futuramente)
 ## Ainda não está finalizado!
