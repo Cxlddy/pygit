@@ -1,8 +1,8 @@
 import json
 from datetime import datetime
-from core.hashing import generate_hash
-from utils.json_utils import load_json, save_json
-from core.paths import REPO, COMMITS, OBJECTS, HEAD, INDEX
+from pygit.core.hashing import generate_hash
+from pygit.utils.json_utils import load_json, save_json
+from pygit.core.paths import REPO, COMMITS, OBJECTS, HEAD, INDEX
 
 def commit(message: str):
     files = load_json(INDEX)

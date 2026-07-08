@@ -1,6 +1,6 @@
 import sys
 import json
-from core.paths import REPO, COMMITS, OBJECTS, HEAD, INDEX
+from pygit.core.paths import REPO, COMMITS, OBJECTS, HEAD, INDEX
 
 def init_repository():
     command = sys.argv[1]

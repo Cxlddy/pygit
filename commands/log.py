@@ -1,5 +1,5 @@
-from utils.json_utils import load_json
-from core.paths import HEAD, COMMITS
+from pygit.utils.json_utils import load_json
+from pygit.core.paths import HEAD, COMMITS
 
 
 def log():

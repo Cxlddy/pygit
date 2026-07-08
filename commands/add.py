@@ -1,9 +1,9 @@
 from pathlib import Path
 from datetime import datetime
-from core.hashing import hash_file
-from core.ignore import discover_files
-from core.paths import REPO, COMMITS, OBJECTS, HEAD, INDEX
-from utils.json_utils import load_json, save_json
+from pygit.core.hashing import hash_file
+from pygit.core.ignore import discover_files
+from pygit.core.paths import REPO, COMMITS, OBJECTS, HEAD, INDEX
+from pygit.utils.json_utils import load_json, save_json
 
 
 def add_file(path: Path):

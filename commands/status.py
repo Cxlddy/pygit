@@ -1,8 +1,8 @@
 from pathlib import Path
-from core.hashing import hash_file
-from core.paths import COMMITS, HEAD, INDEX
-from core.ignore import discover_files
-from utils.json_utils import load_json
+from pygit.core.hashing import hash_file
+from pygit.core.paths import COMMITS, HEAD, INDEX
+from pygit.core.ignore import discover_files
+from pygit.utils.json_utils import load_json
 
 def raiz_repo():
     pasta_atual = Path.cwd()

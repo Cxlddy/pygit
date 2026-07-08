@@ -14,4 +14,10 @@
 - pygit show (mostra uma commit em específico)
 
 
-## Ainda não está finalizado!
+## Como baixar e Rodar:
+
+- Clone o repositório em uma pasta
+- Rode no terminal dentro da pasta pygit: ''' pip install -e .'''
+- Se divirta!
+
+
