@@ -20,4 +20,3 @@
 - Rode no terminal dentro da pasta pygit: ''' pip install -e .'''
 - Se divirta!
 
-
